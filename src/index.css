@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --color-dark: #050301;
+  --color-light: #faf9f6;
+}
+
+@layer base {
+  body {
+    color: var(--color-dark);
+    background: var(--color-light);
+  }
+}
